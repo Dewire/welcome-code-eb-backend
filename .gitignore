@@ -1,0 +1,14 @@
+/dist
+/logs
+/npm-debug.log
+/node_modules
+.DS_Store
+
+.webpack
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+.env*.local

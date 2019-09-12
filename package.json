@@ -1,0 +1,51 @@
+{
+  "name": "welcome-map-backend",
+  "version": "1.0.0",
+  "description": "Welcome Map Backend",
+  "main": "dist",
+  "scripts": {
+    "dev": "nodemon -w src --exec \"babel-node src --presets es2015,stage-0\"",
+    "build": "webpack",
+    "build:cont": "NODE_ENV=cont webpack",
+    "build:dev": "NODE_ENV=dev webpack",
+    "build:prod": "NODE_ENV=prod webpack",
+    "start": "node .webpack/main.js",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "apicache": "^1.2.1",
+    "axios": "^0.17.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "body-parser": "^1.13.3",
+    "compression": "^1.5.2",
+    "cors": "^2.7.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^5.0.1",
+    "express": "^4.13.3",
+    "lodash": "^4.17.11",
+    "moment": "^2.20.1",
+    "morgan": "^1.8.0",
+    "redis": "^2.8.0",
+    "resource-router-middleware": "^0.6.0",
+    "sjcl": "^1.0.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-core": "^6.9.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-module-resolver": "^3.0.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-import-resolver-babel-module": "^4.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.5.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "nodemon": "^1.9.2",
+    "webpack": "^3.3.0"
+  }
+}

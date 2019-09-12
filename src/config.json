@@ -1,0 +1,6 @@
+{
+	"port": 8080,
+	"bodyLimit": "100kb",
+	"corsHeaders": ["Link"],
+	"googleApiKey": "AIzaSyAQPHP4CyZAuNWbH2jFP1UZtBdQ8DXQb68"
+}

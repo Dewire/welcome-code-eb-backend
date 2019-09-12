@@ -1,0 +1,3 @@
+export const CACHE_DURATIONS = {
+  THIRTY_DAYS: 2592000000,
+};
